@@ -23,7 +23,7 @@
                        "value": {
                            "installation": "8343cc7a-8ad1-42d4-97d2-43452c0bdfa3",
                            "product": {
-                             "name": "Camunda BPM Runtime",
+                             "name": "Fluxnova BPM Runtime",
                              "version": "7.14.0",
                              "edition": "enterprise",
                              "internals": {
@@ -50,9 +50,9 @@
                                  "executed-decision-elements": { "count": 732 }
                                },
                                "data-collection-start-date": "2022-11-320T15:53:20.386+0100",
-                               "camunda-integration": [
+                               "fluxnova-integration": [
                                  "spring-boot-starter",
-                                 "camunda-bpm-run"
+                                 "fluxnova-bpm-run"
                                ],
                                "license-key": {
                                  "customer": "customer name",
@@ -60,9 +60,9 @@
                                  "valid-until": "2022-09-30",
                                  "unlimited": false,
                                  "features": {
-                                   "camundaBPM": "true"
+                                   "fluxnovaBPM": "true"
                                  },
-                                 "raw": "customer=customer name;expiryDate=2022-09-30;camundaBPM=true;optimize=false;cawemo=false"
+                                 "raw": "customer=customer name;expiryDate=2022-09-30;fluxnovaBPM=true;optimize=false;cawemo=false"
                                },
                                "webapps": [
                                  "cockpit",

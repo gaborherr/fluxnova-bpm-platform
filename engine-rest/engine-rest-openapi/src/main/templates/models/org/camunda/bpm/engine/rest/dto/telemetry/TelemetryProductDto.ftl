@@ -4,7 +4,7 @@
     <@lib.property
         name = "name"
         type = "string"
-        desc = "The name of the product (i.e., Camunda BPM Runtime)."/>
+        desc = "The name of the product (i.e., Fluxnova BPM Runtime)."/>
 
     <@lib.property
         name = "version"

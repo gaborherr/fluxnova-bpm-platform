@@ -48,8 +48,8 @@
                          "taskDefinitionKey":"aTaskDefinitionKey",
                          "suspended": false,
                          "formKey":"aFormKey",
-                         "camundaFormRef":{
-                           "key": "aCamundaFormKey",
+                         "fluxnovaFormRef":{
+                           "key": "aFluxnovaFormKey",
                            "binding": "version",
                            "version": 2
                          },
