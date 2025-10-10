@@ -24,8 +24,7 @@
                            "installation": "8343cc7a-8ad1-42d4-97d2-43452c0bdfa3",
                            "product": {
                              "name": "Fluxnova BPM Runtime",
-                             "version": "7.14.0",
-                             "edition": "enterprise",
+                             "version": "1.0.0",
                              "internals": {
                                "database": {  
                                  "vendor": "h2",
@@ -54,16 +53,6 @@
                                  "spring-boot-starter",
                                  "fluxnova-bpm-run"
                                ],
-                               "license-key": {
-                                 "customer": "customer name",
-                                 "type": "UNIFIED",
-                                 "valid-until": "2022-09-30",
-                                 "unlimited": false,
-                                 "features": {
-                                   "fluxnovaBPM": "true"
-                                 },
-                                 "raw": "customer=customer name;expiryDate=2022-09-30;fluxnovaBPM=true;optimize=false;cawemo=false"
-                               },
                                "webapps": [
                                  "cockpit",
                                  "admin"
