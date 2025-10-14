@@ -16,13 +16,6 @@
         desc = "Vendor and version of the application server."/>
 
     <@lib.property
-        name = "license-key"
-        type = "ref"
-        additionalProperties = false
-        dto = "TelemetryLicenseKeyDto"
-        desc = "Information about the Fluxnova license key."/>
-
-    <@lib.property
         name = "fluxnova-integration"
         type = "array"
         itemType = "string"
