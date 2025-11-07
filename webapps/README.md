@@ -10,7 +10,7 @@ The structure is as follows:
 * `assembly` - Java sources and tests for the Fluxnova web application based on `javax` namespace.
 * `assembly-jakarta` - Java sources and tests for the Fluxnova web application based on `jakarta` namespace.
   * This module is created from the `assembly` module via code transformation.
-* `frontend` - HTML, CSS and Javascript sources as well as Plugins and tests for the Fluxnova webapplications Cockpit, Tasklist and Admin.
+* `frontend` - HTML, CSS and Javascript sources as well as Plugins and tests for the Fluxnova webapplications Monitoring, Tasklist and Admin.
 
 ## FRONTEND
 
@@ -18,26 +18,18 @@ The structure is as follows:
 
 There are 3 web applications available for the Fluxnova Platform :
 
-* __cockpit__: an administration interface for processes and decisions
+* __monitoring__: an administration interface for processes and decisions
 * __tasklist__: provides an interface to process user tasks
 * __admin__: is used to administer users, groups and their authorizations
 
 The webapps above are relying on 2 libraries:
 
-* __fluxnova-bpm-sdk-js__: provides tools for developers who want interact with the platform using Javascript
+* __fluxnova-bpm-sdk-js__: provides tools for developers who want to interact with the platform using Javascript
 * __fluxnova-commons-ui__: is a set of shared scripts, templates and assets, used in the different webapps
-
-
-#### Plugins
-
-Parts of the web applications can be extended using plugins.
-** Needs To Be Reviewed **
-See [plugin development guide](http://docs.camunda.org/latest/real-life/how-to/#cockpit-how-to-develop-a-cockpit-plugin) for details.
 
 #### Translations
 
 English and german translations are located in the `ui/<app>/client/locales` folders.  
-Translations for other languages are available in the ** Needs To Be Reviewed ** [camunda-7-webapp-translations](https://github.com/camunda-community-hub/camunda-7-webapp-translations) repository.
 
 ### Libraries
 
@@ -153,8 +145,8 @@ Have a look at our [contribution guide](https://github.com/finos/fluxnova-bpm-pl
 
 ## Help and support
 ** Needs To Be Reviewed **
-* [Documentation](http://docs.camunda.org/manual/latest/)
-* [Forum](https://forum.camunda.org)
+* [Documentation](http://docs.fluxnova.finos.org/)
+* [Forum](https://github.com/finos/fluxnova-bpm-platform/discussions)
 * [Stackoverflow](https://stackoverflow.com/questions/tagged/camunda)
 
 ## License

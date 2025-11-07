@@ -54,7 +54,7 @@
                                  "fluxnova-bpm-run"
                                ],
                                "webapps": [
-                                 "cockpit",
+                                 "monitoring",
                                  "admin"
                                ]
                              }
