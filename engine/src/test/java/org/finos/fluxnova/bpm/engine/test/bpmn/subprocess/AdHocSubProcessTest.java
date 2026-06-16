@@ -918,6 +918,12 @@ public class AdHocSubProcessTest extends PluggableProcessEngineTest {
 
     taskService.complete(taskA.getId(), Collections.singletonMap("approved", true));
 
+    // eager completion: taskB must never be created (not created-then-canceled)
+    assertNull(taskService.createTaskQuery()
+        .processInstanceId(processInstance.getId())
+        .taskDefinitionKey("taskB")
+        .singleResult());
+
     assertEquals(0, runtimeService.createProcessInstanceQuery().processInstanceId(processInstance.getId()).count());
   }
 
