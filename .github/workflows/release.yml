@@ -139,7 +139,7 @@ jobs:
         uses: ./.github/actions/build-publish-image
         with:
           version: ${{ env.RELEASE_VERSION }}
-          
+
   publish-javadoc:
     name: Publish Javadoc to GitHub Pages
     runs-on: ubuntu-latest
