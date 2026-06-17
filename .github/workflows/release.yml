@@ -155,6 +155,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./target/reports/apidocs
           destination_dir: javadocs/${{ needs.publish-central.outputs.minor_version }}
+          keep_files: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'docs: publish Javadoc for ${{ needs.publish-central.outputs.release_version }}'
@@ -192,6 +193,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./engine-rest/docs/target/dependency
           destination_dir: openapi/${{ needs.publish-central.outputs.minor_version }}
+          keep_files: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'docs: publish OpenAPI spec for ${{ needs.publish-central.outputs.release_version }}'
